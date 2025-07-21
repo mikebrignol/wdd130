@@ -1,8 +1,8 @@
 :root {
-    --primary-color: 237, 175, 184;
-    --secondary-color: 247, 225, 215;
-    --accent1-color: 222, 219, 210;
-    --accent2-color: 176, 196, 177;
+    --primary-color: #237, 175, 184;
+    --secondary-color: #247, 225, 215;
+    --accent1-color: #222, 219, 210;
+    --accent2-color: #176, 196, 177;
     --heading-font: "Merriweather", sans-serif;
     --body-font: "DM Sans", sans-serif;
 }
@@ -67,4 +67,9 @@ article {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.socialmedia img {
+    width: 48px;
+    height: auto;
 }
