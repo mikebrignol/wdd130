@@ -70,6 +70,18 @@ section img {
     gap: 20px;
     margin: 20px;
 }
+
+figcaption {
+    font-size: smaller;
+    padding: 8px;
+}
+
+.section_img figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 nav, p, article {
     margin: 16px;
     padding: 8px;
