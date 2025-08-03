@@ -7,10 +7,17 @@
     --body-font: "DM Sans", sans-serif;
 }
 
+form {
+    padding: 30px;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+iframe {
+    height: 20px;
 }
 
 body {
