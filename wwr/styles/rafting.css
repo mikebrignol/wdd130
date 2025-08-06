@@ -8,16 +8,26 @@
 }
 
 form {
-    padding: 30px;
+    display: grid;
+    background-color: rgb(239, 235, 235);
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow:0 4px 10px  grey;
+    padding:30px;
+    margin: 30px;
+}
+
+.map {
+    display: flex;
+    
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-iframe {
-    height: 20px;
 }
 
 body {
