@@ -67,6 +67,8 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 30px;
+    gap: 10px;
 }
 
 #adventure {
@@ -149,6 +151,7 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
+
 .socialmedia {
     display: flex;
     gap: 10px;
@@ -159,3 +162,65 @@ footer {
     height: auto;
 }
 
+.home_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: start;
+}
+
+.home_content figure {
+    text-align: center;
+}
+
+.home_content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#cta, #adventure {
+    padding: 30px;
+}
+
+#contact {
+    display: flex;
+    align-items: start;
+    padding: 30px;
+}
+
+.trips_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: start;
+}
+
+.trips_content figure {
+    text-align: left;
+}
+
+.trips_content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--primary-color);
+}
+
+td {
+    background-color: white;
+}

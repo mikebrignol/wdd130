@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <meta name="description" content="This page gives users and customers information about our rafting ">
+    <title>Home</title>
+    <meta name="description" content="HOME page of White Water Rafting Company">
     <meta name="author" content="Mike Adler Brignol">
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,21 +25,30 @@
     <main>
         <div class="hero">
             <img src="images/rafting_photo_3.jpg" alt="people rafting">
-            <h1>WHITE WATER RAFTING COMPANY</h1>
-            <article>
-                <img src="images/smiling_customer.jpg" alt="emplyee smiling">
-                <p>At White Water Rafting, we believe that the best way to spend your summer is out on the river, surrounded by nature, adventure, and unforgettable memories. Whether you’re seeking a relaxing float or an adrenaline-pumping ride through whitewater rapids, we’ve got the perfect trip for you.</p>
-            </article>
+            <h1>WELCOME TO WHITE WATER RAFTING</h1>
         </div>
 
         <section>
-            <h2>History</h2>
-            <p>Our experienced guides will lead you down some of the most scenic and exciting stretches of river, providing all the gear and training you need for a safe and thrilling ride. No matter your experience level, we make rafting fun and accessible for everyone—from families and first-timers to seasoned adventurers.</p>
+            <form>
+                <fieldset>
+                    <legend>SIGN UP</legend>
+                    <label for="fullname">EMAIL</label><br>
+                    <input type="text" id="fullname" name="fullname"><br>
+                    <label for="password">PASSWORD</label><br>
+                    <input type="password" id="password" name="password">
+                </fieldset>
+                <button type="submit">LOG IN</button>
+            </form>
+        </section>
+
+        <section id="cta">
+            <h3>BOOK YOUR TRIP</h3>
+            <a href="/wdd130/wwr/trips.html">click here</a>
         </section>
 
         <section id="adventure">
-            <h2>Adventure Awaits You!</h2>
-            <div class="section_img">
+            <h2>DISCOVER OUR ACTIVITIES!</h2>
+            <div class="home_content">
                 <figure>
                     <img src="images/rafting_photo_1.jpg" alt="white_water_rafting_photo1">
                     <figcaption>Rapid Rush Relay</figcaption>
@@ -47,18 +56,6 @@
                 <figure>
                     <img src="images/rafting_photo_2.jpg" alt="white_water_rafting_photo2">
                     <figcaption>Paddle Power Challenge</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting_photo_3.jpg" alt="white_water_rafting_photo3">
-                    <figcaption>Whitwater Warriors</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting_photo_4.jpg" alt="white_water_rafting_photo4">
-                    <figcaption>The Eddy Escape</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting_photo_5.jpg" alt="white_water_rafting_photo5">
-                    <figcaption>Hydro Hustle Quest</figcaption>
                 </figure>
             </div>
         </section>
